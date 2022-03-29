@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./app.js "></script>
+    <title>kredi hesaplama</title>
+</head>
+<body>
+    <h3>kredi hesaplama formu</h3>
+    <form action="#" id="krediForm">
+        <label for="krediMiktar">kredi miktarını giriniz</label>
+        <input type="text" id="txtKredMiktari">
+        <label for="vadeSecenegi">Vade seçiniz</label>
+        <select name="vadeSecenekleri" id="vadeSecme">
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="36">36</option>
+            <option value="48">48</option>
+        </select>
+        <input type="button" value="kredi geri ödeme şartlarını hesapla" onclick="krediHesapla();">
+    </form>
+    <h5 id="vadeSonuc"></h5>  
+</body>
+</html>
